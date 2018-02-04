@@ -22,3 +22,11 @@ for (let geim in geimflaugar) {
 Geimflaug.prototype.fly = function() {
 	this.speed += 1;
 };
+
+let geimflaug4 = new Geimflaug();
+
+geimflaug4.speed = 5;
+
+geimflaug4.damage = function() {
+	this.life -= 1
+};
