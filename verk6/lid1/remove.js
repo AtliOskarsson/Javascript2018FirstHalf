@@ -1,3 +1,4 @@
 document.getElementsByTagName("div")[0].setAttribute("class", "active");
 
-document.getElementsByTagName("div")[2].parentNode.removeChild(karen);
+let begone = document.getElementsByTagName("div")[2]
+begone.parentNode.removeChild(begone);
